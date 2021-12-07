@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/whatsapp-bottom.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Logo</title>
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="container">
+      <div class="header-top">
+        <div class="header-left">
+
+          <div class="burger-menu">
+            <input id="menu-toggle" type="checkbox" />
+            <label class="menu-btn" for="menu-toggle">
+              <span></span>
+            </label>
+         
+            <ul class="menubox">
+                    <li><a class="menu-item" href="#">О клинике</a></li>
+                    <li><a class="menu-item" href="#">Услуги</a></li>
+                    <li><a class="menu-item" href="#">Специалисты</a></li>
+                    <li><a class="menu-item" href="#">Цены</a></li>
+                    <li><a class="menu-item" href="#">Контакты</a></li>
+                    <button class="menu-box-btn"   type="button">Записаться на прием</button>
+            </ul>
+          </div>
+
+          <a href="#">
+            <picture>
+              <source srcset="./img/logo.svg" type="image/webp">
+                <img class="logo" src="./img/logo.svg" alt="">
+            </picture>
+          </a>
+
+          <a href="#">
+            <picture>
+              <source srcset="./img/logo-min.svg" type="image/webp">            
+                <img class="logo-min" src="./img/logo-min.svg" alt="">
+            </picture>
+          </a>
+
+          <div class="header-address">
+            <div class="header-address-flex">
+              <picture>
+                <source srcset="./img/placeholder.svg" type="image/webp">
+                <img class="placeholder" src="./img/placeholder.svg" alt="">
+              </picture>
+              <p class="header-address-city">Ростов-на-Дону</p>
+            </div>
+            <p class="header-address-street">ул. Ленина, 2Б</p>
+          </div>
+        </div>
+  
+        <div class="header-right">    
+            <div class="header-whatsapp">
+
+              <a href="#">
+                <picture>
+                  <source srcset="./img/whatsapp-top.svg" type="image/webp">
+                    <img class="whatsapp-top" src="./img/whatsapp-top.svg" alt="">
+                </picture>
+              </a>
+
+              <p class="phone">+7(863) 000 00 00</p>
+            </div>
+            <a href="#forms">
+              <button type="button"> Записаться на прием</button>
+            </a>
+            <div class="header-mobile">
+              <p class="mobile-phone">+7(863) 000 00 00</p>
+              <p class="mobile-address">Ростов-на-Дону</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav">
+    <div class="container">
+      <ul class="nav-list">
+        <li class="nav-list-item"><a href="#">О клинике</a></li>
+        <li class="nav-list-item"><a href="#">Услуги</a></li>
+        <li class="nav-list-item"><a href="#">Специалисты</a></li>
+        <li class="nav-list-item"><a href="#">Цены</a></li>
+        <li class="nav-list-item"><a href="#">Контакты</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="bg-gray">
+    <div class="container">
+      <picture>
+        <source srcset="./img/image-1-min2.jpg" type="image/webp">
+        <img class="image-1-min" src="./img/image-1-min2.jpg" alt="">
+      </picture>
+      <div class="row ">
+        <div class="col-lg-6 bg-gray-info">
+          <h2 class="bg-gray-title">Многопрофильная<br> клиника для детей<br> и взрослых</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        </div>
+        <div class="col-lg-6 ">
+          <picture>
+            <source srcset="./img/image-1.jpg" type="image/webp">
+            <img class="image-1" src="./img/image-1.jpg" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="swiper">
+    
+      <div class="swiper-wrapper">
+
+        <!-- Slides -->
+
+        <div class="swiper-slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 slider-left">
+                <h1 class="slider-logo">CHECK-UP</h1>
+                <h3>для мужчин</h3>
+                <ul class="slider-list">
+                  <li class="slider-info">Гормональный скрининг</li>
+                  <li class="slider-info">Тестостерон</li>
+                  <li class="slider-info">Свободный тестостерон</li>
+                  <li class="slider-info">Глобулин, связывающий половые гормоны</li>
+                </ul>
+                <p class="slider-price">Всего 2800₽ <span class="slider-sale">3500₽</span></p>
+                <a href="#forms">
+                  <button type="button">Записаться</button>
+                </a>
+                <button class="btn" type="button">Подробнее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 slider-left">
+                <h1 class="slider-logo">CHECK-UP</h1>
+                <h3>для мужчин</h3>
+                <ul class="slider-list">
+                  <li class="slider-info">Гормональный скрининг</li>
+                  <li class="slider-info">Тестостерон</li>
+                  <li class="slider-info">Свободный тестостерон</li>
+                  <li class="slider-info">Глобулин, связывающий половые гормоны</li>
+                </ul>
+                <p class="slider-price">Всего 2800₽ <span class="slider-sale">3500₽</span></p>
+                <a href="#forms">
+                  <button type="button">Записаться</button>
+                </a>
+                <button class="btn" type="button">Подробнее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 slider-left">
+                <h1 class="slider-logo">CHECK-UP</h1>
+                <h3>для мужчин</h3>
+                <ul class="slider-list">
+                  <li class="slider-info">Гормональный скрининг</li>
+                  <li class="slider-info">Тестостерон</li>
+                  <li class="slider-info">Свободный тестостерон</li>
+                  <li class="slider-info">Глобулин, связывающий половые гормоны</li>
+                </ul>
+                <p class="slider-price">Всего 2800₽ <span class="slider-sale">3500₽</span></p>
+                <a href="#forms">
+                  <button type="button">Записаться</button>
+                </a>
+                <button class="btn" type="button">Подробнее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 slider-left">
+                <h1 class="slider-logo">CHECK-UP</h1>
+                <h3>для мужчин</h3>
+                <ul class="slider-list">
+                  <li class="slider-info">Гормональный скрининг</li>
+                  <li class="slider-info">Тестостерон</li>
+                  <li class="slider-info">Свободный тестостерон</li>
+                  <li class="slider-info">Глобулин, связывающий половые гормоны</li>
+                </ul>
+                <p class="slider-price">Всего 2800₽ <span class="slider-sale">3500₽</span></p>
+                <a href="#forms">
+                  <button  type="button">Записаться</button>
+                </a>
+                <button class="btn" type="button">Подробнее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="footer-info">
+
+        <a href="#">
+          <picture>
+            <source srcset="./img/logo-bottom.svg" type="image/webp">
+              <img class="logo-bottom" src="./img/logo-bottom.svg" alt="">
+          </picture>
+        </a>
+
+        <ul class="nav-list">
+          <li class="nav-list-item"><a href="#">О клинике</a></li>
+          <li class="nav-list-item"><a href="#">Услуги</a></li>
+          <li class="nav-list-item"><a href="#">Специалисты</a></li>
+          <li class="nav-list-item"><a href="#">Цены</a></li>
+          <li class="nav-list-item"><a href="#">Контакты</a></li>
+        </ul>
+        <div class="footer-icon">
+
+          <a href="#">
+            <picture>
+              <source srcset="./img/instagram-bottom.png" type="image/webp">         
+                <img class="instagram-bottom"  width="35" height="35" src="./img/instagram-bottom.png" alt="">
+            </picture>
+          </a>
+
+          <a href="#">
+            <picture>
+              <source srcset="./img/whatsapp-bottom.png" type="image/webp">
+                <img class="whatsapp-bottom" width="35" height="35" src="./img/whatsapp-bottom.png" alt="">
+            </picture>
+          </a>
+
+          <a href="#">
+            <picture>
+              <source srcset="./img/telegram-bottom.png" type="image/webp">        
+                <img class="logo-bottom" width="35" height="35" src="./img/telegram-bottom.png" alt="">          
+            </picture>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="forms" class="form">
+    <a class="form-area" href="#"></a>
+    <div class="form-body">
+      <div class="form-content">
+        <a href="#" class="form-close">X
+          <!-- <img src="img/whatsapp.png" alt=""> -->
+        </a>
+        <div class="form-title">Укажите свои данные</div>
+        <div class="form-action">
+          <form id="form" name="form">
+            <input class="form-field" name="name" type="text"  placeholder="Ваше имя">
+            <input class="form-field" name="phone" type="text"  placeholder="Ваш номер телефона">
+            <input class="form-field" name="email" type="email"  placeholder="Ваш email">
+            <button class="input-btn" type="submit">Записаться на прием</button>
+          </form>  
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay js-overlay-thank-you">
+			<div class="popup js-thank-you">
+				<h2>Вы успешно записались на прием, с вами свяжутся в ближайшее время!</h2>
+				<div class="close-popup js-close-thank-you">X</div>
+			</div>
+		</div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="index.js"></script>
+  <script src="jquery.maskedinput.js"></script>
+
+</body>
+</html>
